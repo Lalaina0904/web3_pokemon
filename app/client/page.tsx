@@ -60,7 +60,13 @@ const Pokedex = () => {
                     </div>
                 ))}
             </div>
-            <button onClick={() => setOffset(offset + 50)}>Suivant</button>
+
+            <button
+                onClick={() => setOffset(offset + 50)}
+                className='mt-6 bg-red-500 px-8 py-2 text-white rounded-md '
+            >
+                Suivant
+            </button>
         </div>
     );
 };
