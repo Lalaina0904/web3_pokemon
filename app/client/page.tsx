@@ -39,8 +39,8 @@ const Pokedex = () => {
                         <Image
                             src={`https://img.pokemondb.net/sprites/home/normal/${pokemon.name}.png`}
                             alt={pokemon.name}
-                            width={96}
-                            height={96}
+                            width={200}
+                            height={200}
                         />
 
                         <h2>{pokemon.name}</h2>
